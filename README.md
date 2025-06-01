@@ -4,7 +4,7 @@
   - https://github.com/VirusPilot/stratux-pi4/wiki/Shopping-List-v3-TX (active cooling with fan, copper heatsink, TX module)
   - https://github.com/VirusPilot/stratux-pi4/wiki/Shopping-List-v3 (passive cooling with large copper heatsink)
   - https://github.com/VirusPilot/stratux-pi4/wiki/Shopping-List-v2 (active cooling with fan)
-  - https://github.com/VirusPilot/stratux-pi4/wiki/Shopping-List-v1 (passive cooling with custum aluminium block)
+  - https://github.com/VirusPilot/stratux-pi4/wiki/Shopping-List-v1 (passive cooling with custom aluminium block)
 
 - both scripts are based on the latest **64bit RasPiOS Lite Bookworm Image**, using **Raspberry Pi Imager** from here: https://www.raspberrypi.com/software/
 
