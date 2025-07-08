@@ -36,7 +36,7 @@ pip install --break-system-packages esptool
 
 # install latest golang
 cd /root
-wget https://go.dev/dl/go1.24.3.linux-arm64.tar.gz
+wget https://go.dev/dl/go1.24.4.linux-arm64.tar.gz
 rm -rf /root/go
 rm -rf /root/go_path
 tar xzf *.gz
@@ -53,6 +53,9 @@ sudo dpkg -i *.deb
 rm -f *.deb
 rm -f *.buildinfo
 rm -f *.changes
+
+# legacy DVB-T TV drivers need to be properly blacklisted (e.g. they will activate the bias tee by default)
+echo 'blacklist dvb_usb_rtl28xxu' | sudo tee --append /etc/modprobe.d/blacklist-dvb_usb_rtl28xxu.conf
 
 # install kalibrate-rtl
 cd /root
