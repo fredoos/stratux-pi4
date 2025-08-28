@@ -77,7 +77,7 @@ cd WiringPi
 # clone stratux
 cd /root
 rm -rf /root/stratux
-git clone --recursive https://github.com/stratux/stratux.git /root/stratux
+git clone --recursive https://github.com/fredoos/stratux.git /root/stratux
 cd /root/stratux
 
 # copy various files from /root/stratux/image
