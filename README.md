@@ -49,7 +49,7 @@ sudo bash -c "$(wget -nv -O - https://raw.githubusercontent.com/VirusPilot/strat
 cd ~/
 apt update
 apt full-upgrade -y
-sudo bash -c "$(wget -nv -O - https://raw.githubusercontent.com/VirusPilot/stratux-pi4/master/setup-pi4-latest.sh)"
+sudo bash -c "$(wget -nv -O - https://raw.githubusercontent.com/fredoos/stratux-pi4/master/setup-pi4-latest.sh)"
 ```
 **viruspilot** version:
 ```
